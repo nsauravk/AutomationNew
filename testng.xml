@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="none">
+	<test name="Regression 1" preserve-order="true">
+			<classes>
+	 		<!-- 	<class name='pkgTestScripts.MBEPolicyTest'/> -->
+			<!-- <class name='pkgTestScripts.SMEPolicyTest'/> -->
+			<class name='pkgCommonFiles.BaseClass' />
+			 <class name='pkgTestScripts.ExporterTest'/> 
+			<!-- <class name='pkgTestScripts.SPPPolicyTest' /> -->	 
+			<!-- <class name='pkgTestScripts.SPPPolicyTest'/> -->
+			<!-- <class name='pkgTestScripts.GenerateOfficeNoteTest'/> -->
+			<!-- <class name='pkgTestScripts.SRCPolicyTest'/>
+				 <class name='pkgTestScripts.ETPPolicyTest'/> 
+		 		 <class name='pkgTestScripts.SECPolicyTest'/> -->
+			<!-- <class name='pkgTestScripts.SCRPolicyTest'/> --> 
+		    <!--  <class name='pkgTestScripts.CSAPolicyTest'/>   -->
+	    <!-- <class name='pkgTestScripts.PolicyEndorsementTest'/>-->
+   		   <!--     	<class name='pkgTestScripts.ScrutinyTest'/> -->
+		 <!-- <class name='pkgTestScripts.SPPPolicyTest'/>  -->	
+		 <!-- <class name='pkgTestScripts.SSPPolicyTest'/> -->
+		 <!-- <class name='pkgTestScripts.SBEPolicyTest'/> -->
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

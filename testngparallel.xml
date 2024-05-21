@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="2" parallel="classes" >
+
+<test name="FirefoxTest">
+<classes>
+<class name='pkgTestScripts.SECPolicyTest'> </class>
+<class name='pkgCommonFiles.BaseClass' > </class>
+</classes>
+</test>
+
+<test name="FirefoxTest1">
+<classes>
+<class name='pkgTestScripts.SCRPolicyTest'> </class>
+<class name='pkgCommonFiles.BaseClass' > </class>
+</classes>
+</test>
+
+
+<test name="FirefoxTest2">
+<classes>
+ <class name='pkgTestScripts.SRCPolicyTest'/>
+<class name='pkgCommonFiles.BaseClass' > </class>
+</classes>
+</test>
+
+<test name="FirefoxTest3">
+<classes>
+ <class name='pkgTestScripts.ETPPolicyTest'/> 
+<class name='pkgCommonFiles.BaseClass' > </class>
+</classes>
+</test>
+
+</suite>
